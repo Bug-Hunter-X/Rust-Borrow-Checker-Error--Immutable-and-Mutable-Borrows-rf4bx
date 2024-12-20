@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust related to the borrow checker.  The `bug.rs` file contains code that attempts to create both mutable and immutable references to the same variable simultaneously, resulting in a compile-time error. The `bugSolution.rs` file provides a solution demonstrating how to correctly handle such situations.
